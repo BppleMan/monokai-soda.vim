@@ -1,4 +1,11 @@
-local Color, colors, Group, groups, styles = require('colorbuddy').setup()
+--local Color, colors, Group, groups, styles = require('colorbuddy').setup()
+local colorbuddy = require('colorbuddy')
+
+local Color = colorbuddy.Color
+local colors = colorbuddy.colors
+local Group = colorbuddy.Group
+local groups = colorbuddy.groups
+local styles = colorbuddy.styles
 
 vim.g.colors_name = 'monokai-soda'
 vim.cmd('set background=dark')
